@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/LoginStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="Top">
+        <h1>VALORANT<sub>SHOP</sub></h1>
+    </div>
+    
+    
+    <div id="Containt">
+        
+            <div id="Logo">
+                <h2 style="text-align:center;color:black;font-size:40px;border-bottom:3px solid white;">VALORANT<sub>SHOP</sub></h2>
+                <br />
+                <div id="comment">
+
+                    <p style="text-align:left">helps you connect and share with the people in your life.</p>
+                </div>
+
+            </div>
+            <div id="LoginLay">
+
+                <p id="Title">Form LoGin</p>
+                <form action="">
+                    <div>
+                        <i class="fa-solid fa-user" style="color: #ff0000;"></i>
+
+                        <input class="Text" type="text" value="DangNhap" id="TK" />
+                    </div>
+
+                    <div>
+                        <input class="Text" type="password" value="MatKhau" id="MK" />
+                    </div>
+                        
+
+                        <input class="Submit" type="submit" name="btn" value="LOGIN" />
+                   
+
+
+                </div>
+        </form>
+                @RenderBody()
+
+      </div>
+    
+</body>
+</html>

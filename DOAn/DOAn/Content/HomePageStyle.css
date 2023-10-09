@@ -1,0 +1,86 @@
+﻿body {
+}
+#Top {
+    background-color: red;
+    border-bottom: 10px solid orange ;
+    font-family: Garamond;
+    padding: 1px 50px 10px;
+    display: flex;
+    justify-content:space-between;
+}
+#txt {
+    margin:35px 10px;
+    height:20px;
+}
+#List {
+height:auto;
+width:20%;
+background-color:rebeccapurple;
+float:left;
+display:flex;
+flex-direction:column;
+
+}
+#Containt {
+    display:flex;
+    height: auto;
+    width:80%;
+    float:right;
+    background-color:palevioletred;
+    flex-wrap:wrap;
+}
+#Footer {
+height:50px;
+background-color:red;
+clear:both;
+border-top:10px solid orange;
+}
+#Item1 {
+display:flex;
+flex-direction:column;
+margin-left:0px;
+    }
+#Gun {
+list-style-type:none;
+
+}
+a{
+color:aqua;
+text-underline-offset:unset;
+text-decoration:none;
+}
+#Right-list {
+display:flex;
+flex-wrap:wrap;
+flex-direction:row;
+}
+.Weapon-box {
+
+height:240px;
+width:300px;
+background-color:antiquewhite;
+
+}
+.Img-size {
+
+margin-left:20px;
+margin-top:10px;
+
+}
+.Weapon-description {
+    height: 120px;
+    width: auto;
+    background-color: dimgray;
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align:center;
+}
+.Margin-des {
+    margin-left:10px;
+    padding-top:5px;
+}
+.Weapon-box {
+margin:auto;
+margin-top:50px;
+}
+

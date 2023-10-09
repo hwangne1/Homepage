@@ -1,0 +1,84 @@
+﻿body {
+
+}
+#Top {
+    background-color: red;
+    border-bottom: 10px solid orange;
+    font-family: Garamond;
+    padding: 1px 50px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#Containt {
+    display: flex;
+    height: 600px;
+    width: auto;
+    flex-direction: row;
+    background-color: palevioletred;
+    padding-left: 300px;
+    padding-top: 55px;
+    background-image: url(https://sm.ign.com/t/ign_in/news/v/valorant-r/valorant-releases-weapon-pack-where-the-weapons-are-just-dra_a88f.1280.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Logo {
+width:30%;
+height:400px;
+color:aliceblue;
+font-size:larger;
+
+
+
+
+
+}
+#LoginLay {
+    width: 30%;
+    height: 400px;
+    background-color: rgba(0,0,0,0.8);
+    border:1px solid black;
+    box-shadow: 0px 0px 17px 2px aliceblue;
+   
+   
+}
+.Text {
+align-items:center;
+height:22px;
+justify-content:space-between;
+text-align:center;
+margin-top:15px;
+margin-bottom:15px;
+background: transparent;
+border:0;
+outline:0;
+border-bottom:1px solid white;
+padding:30px 50px 20px ;
+color:white;
+margin-left:45px;
+}
+#comment {
+text-align:left;
+text-transform:uppercase;
+margin:10px;
+}
+#Title {
+font-size:26px;
+color:aliceblue;
+text-align:center;
+}
+.Submit{
+
+
+background:transparent;
+border-bottom:1px solid white;
+padding:10px 10px;
+margin-left:37px;
+width:80%;
+color:wheat;
+
+}
+.Submit :hover {
+      border-bottom:1px solid #81ecec;
+    }
